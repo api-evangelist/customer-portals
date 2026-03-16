@@ -2,7 +2,7 @@ name: Customer Portals API
 description: A collection of APIs for managing customer portal functionality including authentication, profile management, support tickets, billing, and notifications
 image: https://example.com/images/customer-portals-logo.png
 created: '2024-01-15'
-modified: '2024-01-15'
+modified: '2026-03-16'
 specificationVersion: '0.18'
 url: https://example.com/apis.json
 apis:
@@ -142,7 +142,5 @@ common:
 - type: X-sdks
   url: https://example.com/sdks
 maintainers:
-- FN: Customer Portal Team
-  email: portal-team@example.com
-  X-twitter: exampleportal
-  X-github: example-org
+- FN: Kin Lane
+  email: kin@apievangelist.com
