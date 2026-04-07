@@ -16,9 +16,9 @@ apis:
     baseURL: https://api.example.com/v1/auth
     tags:
       - Authentication
+      - OAuth
       - Security
       - Sessions
-      - OAuth
     properties:
       - type: X-documentation
         url: https://example.com/docs/auth
@@ -37,10 +37,10 @@ apis:
     humanURL: https://example.com/docs/profile
     baseURL: https://api.example.com/v1/profile
     tags:
-      - Profile
-      - Customers
       - Account Management
+      - Customers
       - Preferences
+      - Profile
     properties:
       - type: X-documentation
         url: https://example.com/docs/profile
@@ -57,10 +57,10 @@ apis:
     humanURL: https://example.com/docs/support
     baseURL: https://api.example.com/v1/support
     tags:
+      - Customer Service
+      - Help Desk
       - Support
       - Tickets
-      - Help Desk
-      - Customer Service
     properties:
       - type: X-documentation
         url: https://example.com/docs/support
@@ -78,9 +78,9 @@ apis:
     baseURL: https://api.example.com/v1/billing
     tags:
       - Billing
+      - Financial
       - Invoices
       - Payments
-      - Financial
     properties:
       - type: X-documentation
         url: https://example.com/docs/billing
@@ -97,10 +97,10 @@ apis:
     humanURL: https://example.com/docs/notifications
     baseURL: https://api.example.com/v1/notifications
     tags:
-      - Notifications
       - Alerts
-      - Messaging
       - Communication
+      - Messaging
+      - Notifications
     properties:
       - type: X-documentation
         url: https://example.com/docs/notifications
@@ -118,9 +118,9 @@ apis:
     baseURL: https://api.example.com/v1/documents
     tags:
       - Documents
+      - Downloads
       - Files
       - Storage
-      - Downloads
     properties:
       - type: X-documentation
         url: https://example.com/docs/documents
