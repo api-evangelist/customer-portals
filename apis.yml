@@ -49,7 +49,7 @@ tags:
   - Profiles
   - Self-Service
   - Support
-  - Tickets
+  - Ticketing
 tags_raw:
   - Account Management
   - Authentication
@@ -88,3 +88,4 @@ common:
     url: https://www.freshworks.com/freshdesk/
   - type: Zuora
     url: https://www.zuora.com
+kind: topic
