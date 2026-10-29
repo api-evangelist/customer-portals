@@ -1,4 +1,4 @@
-# Customer Portals (customer-portals)
+# customer-portals
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,58 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Customer Portals is the topic dedicated to the architecture, APIs, schemas, and reference designs behind self-service customer portals. A customer portal is a secure web or mobile experience where authenticated customers can manage their profile, view orders and invoices, pay bills, submit and track support tickets, download documents, manage notification preferences, and access account-specific resources.
+## customer-portals on APIs.io
 
-Modern customer portals are typically composed of multiple back-end APIs - authentication and identity, profile and preference management, billing and invoicing, support and ticketing, notifications, and document delivery - surfaced through a single front-end shell.
+Everything profiled for customer-portals is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/customer-portals/](https://apis.io/providers/customer-portals/)** — or go straight to one of the APIs or properties below.
 
-This repository captures the vendors, patterns, and standards that make customer portals reliable, accessible, and API-driven.
+## API Evangelist rating
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/customer-portals/refs/heads/main/apis.yml)
+Not yet rated. See [apis.io/providers/customer-portals/](https://apis.io/providers/customer-portals/).
 
-## Scope
+## How this profile is made
 
-- **Type:** Topic
-- **Position:** Reference
-- **Access:** Public
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Tags
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for customer-portals: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- Account Management
-- Authentication
-- Billing
-- Customer Self-Service
-- Documents
-- Identity
-- Invoices
-- Notifications
-- Portal
-- Profile
-- Self-Service
-- Support
-- Tickets
+## Open an issue
 
-## Timestamps
-
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
-
-## APIs
-
-This is a topic-level repository. It does not document a single vendor API; instead it points to the major commercial portal platforms (Salesforce Experience Cloud, Zendesk Help Center, HubSpot, Freshdesk, Zuora) and the identity, support, and billing APIs (Auth0, Okta, Stripe Customer Portal) that are most often composed together to deliver a customer portal experience. See the individual vendor repositories for OpenAPI artifacts. Contributions welcome.
-
-## Common Properties
-
-- [Salesforce Experience Cloud](https://www.salesforce.com/products/experience-cloud/overview/)
-- [Zendesk Help Center](https://www.zendesk.com/service/help-center/)
-- [HubSpot Customer Portal](https://www.hubspot.com/products/service/customer-portal)
-- [Auth0](https://auth0.com)
-- [Okta Customer Identity](https://www.okta.com/products/customer-identity/)
-- [Stripe Customer Portal](https://stripe.com/billing/customer-portal)
-- [Freshdesk](https://www.freshworks.com/freshdesk/)
-- [Zuora](https://www.zuora.com)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/customer-portals/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
